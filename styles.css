@@ -9,3 +9,40 @@
     background-image: url("https://as1.ftcdn.net/jpg/01/43/15/96/1000_F_143159642_3lLXAqyK5njcObByil9Zhv6L2htLFL58.jpg");
     margin: auto;
 }
+#dino{
+    height: 75px;
+    width: 75px;
+    position: relative;
+    top: 225px;
+    background-image: url("https://ih1.redbubble.net/image.780233655.8285/st,small,507x507-pad,600x600,f8f8f8.jpg");
+    background-size: cover;
+    
+
+}
+
+#rock{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 175px;
+    background-image: url("https://img.freepik.com/premium-vector/pixel-art-stone-illustration-retro-8-bit-rock-graphic-vintage-gaming-design_1292377-12399.jpg");
+    background-size: cover;
+    left: 550px;
+    animation: rock 1.33s infinite;
+   
+}
+@keyframes rock {
+    0%{left: 550px;}
+    100%{left: -50px;}
+    
+}
+.jump-animation {
+    animation: jump 0.5s;
+}
+@keyframes  jump {
+    0%{top: 225px;}
+    50%{top: 75px;}
+    75%{top: 75px;}
+    100%{top: 225px;}
+
+}
