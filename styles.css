@@ -1,0 +1,11 @@
+#score{
+    text-align: center;
+}
+#game{
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    background-size: cover;
+    background-image: url("https://as1.ftcdn.net/jpg/01/43/15/96/1000_F_143159642_3lLXAqyK5njcObByil9Zhv6L2htLFL58.jpg");
+    margin: auto;
+}
