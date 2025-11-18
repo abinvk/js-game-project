@@ -13,6 +13,7 @@ document.addEventListener('keypress',() => {
     jump();
 });
 setInterval(() => {
+    score.innerText++;
     const dinoTop = parseInt(window.getComputedStyle(dino)
     .getPropertyValue('top'));
     const rockLeft = parseInt(window.getComputedStyle(rock)
@@ -24,6 +25,12 @@ setInterval(() => {
         rock.style.disply = '';
     }
 
-    if(rockLeft < 50 && rockLeft > 0 && dinoTop >  150 )
+    if(rockLeft < 50 && rockLeft > 0 && dinoTop >  150 ){
+        alert("you got a score of:" + score.innerText +
+            "\n\nPlay agin?")
+            location.reload();
+    }
+    
 
-    }, 50);       
+
+    } ,50);       
