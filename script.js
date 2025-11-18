@@ -6,5 +6,9 @@ function jump() {
     dino.classList.add('jump-animation');
     setTimeout(() => {
         dino.classList.remove('jump-animation');
-    }, 250);
+    }, 500);
 }
+document.addEventListener('keypress',() => {
+    if (!dino.classList.contains('jump-animation'))
+    jump();
+});
