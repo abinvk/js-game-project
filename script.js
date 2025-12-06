@@ -22,7 +22,7 @@ setInterval(() => {
     if (rockLeft < 0){
         rock.style.display = 'none';
     } else {
-        rock.style.disply = '';
+        rock.style.display = '';
     }
 
     if(rockLeft < 50 && rockLeft > 0 && dinoTop >  150 ){
@@ -30,7 +30,4 @@ setInterval(() => {
             "\n\nPlay agin?")
             location.reload();
     }
-    
-
-
     } ,50);       
